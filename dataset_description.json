@@ -1,0 +1,38 @@
+{
+    "Name": "MartinezPeon2024",
+    "BIDSVersion": "1.9.0",
+    "HEDVersion": "8.4.0",
+    "DatasetType": "derivative",
+    "License": "CC-BY-4.0",
+    "Authors": [
+        "Dulce Martinez-Peon"
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.6084/m9.figshare.25773342",
+        "10.1088/1741-2552/ad5f27"
+    ],
+    "Keywords": [
+        "motor imagery",
+        "kinesthetic motor imagery",
+        "force level",
+        "hand grip",
+        "EEG",
+        "BCI"
+    ],
+    "DatasetDOI": "doi:10.6084/m9.figshare.25773342.v1",
+    "GeneratedBy": [
+        {
+            "CodeURL": "https://github.com/NeuroTechX/moabb",
+            "Name": "moabb",
+            "Description": "Mother of All BCI Benchmarks",
+            "Version": "1.8.0dev0"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "DOI": "10.6084/m9.figshare.25773342.v1",
+            "URL": "https://doi.org/10.6084/m9.figshare.25773342"
+        }
+    ],
+    "PublicationYear": 2024
+}

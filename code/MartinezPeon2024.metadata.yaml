@@ -1,0 +1,95 @@
+_dataset:
+  class: MartinezPeon2024
+  code: MartinezPeon2024
+  doi: 10.6084/m9.figshare.25773342.v1
+  interval: !!python/tuple
+  - 0
+  - 5
+  n_subjects: 10
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 14
+  electrode_type: saline
+  hardware: Emotiv EPOC
+  line_freq: 60.0
+  montage: standard_1020
+  reference: P3 and P4 (Emotiv EPOC reference locations)
+  sampling_rate: 128.0
+  sensor_type: wet
+  sensors:
+  - AF3
+  - F7
+  - F3
+  - FC5
+  - T7
+  - P7
+  - O1
+  - O2
+  - P8
+  - T8
+  - FC6
+  - F4
+  - F8
+  - AF4
+documentation:
+  associated_paper_doi: 10.1088/1741-2552/ad5f27
+  country: MX
+  data_url: https://doi.org/10.6084/m9.figshare.25773342
+  description: EEG kinesthetic motor imagery at three graded hand-grip force levels (10/40/70% MVC) from 10 healthy subjects,
+    Emotiv EPOC, 14 channels, 128 Hz.
+  doi: 10.6084/m9.figshare.25773342.v1
+  institution: National Technological Institute of Mexico (TecNM) - IT Nuevo Leon; Cinvestav Saltillo
+  investigators:
+  - Dulce Martinez-Peon
+  keywords:
+  - motor imagery
+  - kinesthetic motor imagery
+  - force level
+  - hand grip
+  - EEG
+  - BCI
+  license: CC-BY-4.0
+  publication_year: 2024
+  repository: Figshare
+experiment:
+  class_labels:
+  - level_10
+  - level_40
+  - level_70
+  events:
+    level_10: 1
+    level_40: 2
+    level_70: 3
+  feedback_type: none
+  mode: offline
+  n_classes: 3
+  paradigm: imagery
+  study_design: Kinesthetic motor imagery of a right-hand ball squeeze at 10/40/70% of maximal voluntary contraction. Each
+    40 s recording carries five KMI cues at 2.9/10.9/18.9/26.9/34.9 s (5 s each); each force level is recorded twice per subject.
+    The force level is encoded in the file name.
+  synchronicity: cue-based
+  trial_duration: 5.0
+  trials_per_class:
+    level_10: 10
+    level_40: 10
+    level_70: 10
+file_format: TXT
+participants:
+  age_max: 32.0
+  age_mean: 27.8
+  age_min: 24.0
+  age_std: 2.78
+  gender:
+    female: 3
+    male: 7
+  health_status: healthy
+  n_subjects: 10
+  species: homo sapiens
+runs_per_session: 6
+sessions_per_subject: 1
+tags:
+  modality:
+  - Motor
+  type:
+  - Motor Imagery
