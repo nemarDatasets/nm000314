@@ -1,0 +1,84 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Dulce Martinez-Peon": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.6084/m9.figshare.25773342.v1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.25773342",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1088/1741-2552/ad5f27",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000314",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000314",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "MartinezPeon2024",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "8.84 MB (61 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml"
+  ],
+  "description": "EEG recordings from 10 healthy participants performing kinesthetic motor imagery of a right-hand ball squeeze at three graded force levels (10%, 40%, and 70% of maximal voluntary contraction). Data were acquired with a 14-channel Emotiv EPOC headset at 128 Hz, with five cued imagery trials per 40 s recording and two recordings per force level per subject. The dataset supports characterization and classification of motor imagery force levels for brain-computer interfaces.",
+  "methods_description": "Participants imagined squeezing a ball with the right hand at 10%, 40%, or 70% MVC. Each 40 s recording contained five 5-s cues, and each force level was recorded twice per subject. EEG was recorded with a wet saline-electrode Emotiv EPOC (14 channels, 128 Hz, standard 10-20 montage, P3/P4 reference).",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "kinesthetic motor imagery"
+    },
+    {
+      "term": "force level"
+    },
+    {
+      "term": "hand grip"
+    },
+    {
+      "term": "brain-computer interface"
+    }
+  ],
+  "source_hash": "930ba9d9e4f438a6433a2149bd077f33de489f18eb1c7595812f38511f670165"
+}
