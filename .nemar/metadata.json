@@ -1,9 +1,34 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "MartinezPeon2024: Kinesthetic motor imagery at graded force levels",
+  "description": "EEG recordings of kinesthetic motor imagery of a right-hand ball squeeze at three graded force levels (10%, 40%, and 70% of maximal voluntary contraction) from 10 healthy participants. Data were acquired with a 14-channel Emotiv EPOC headset at 128 Hz, with five 5-s imagery cues per 40-s recording and two recordings per force level per subject. This BIDS release was produced via MOABB and supports research on force-level characterization and classification for brain-computer interfaces.",
+  "methods_description": "Participants performed cue-based, offline kinesthetic motor imagery of a right-hand ball squeeze at 10, 40, and 70% MVC. Each 40 s recording contained five cues (at 2.9, 10.9, 18.9, 26.9, and 34.9 s, 5 s each), and each force level was recorded twice per subject. EEG was recorded with a 14-channel wet saline Emotiv EPOC system at 128 Hz, referenced to P3/P4.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Dulce Martinez-Peon": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "kinesthetic motor imagery"
+    },
+    {
+      "term": "force level"
+    },
+    {
+      "term": "hand grip"
+    },
+    {
+      "term": "brain-computer interface"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.6084/m9.figshare.25773342.v1",
@@ -41,14 +66,11 @@
       "relation_type": "References"
     }
   ],
-  "title": "MartinezPeon2024",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "8.84 MB (61 files)"
   ],
@@ -56,29 +78,8 @@
     ".edf",
     ".json",
     ".tsv",
-    ".yaml"
+    ".yaml",
+    ".yml"
   ],
-  "description": "EEG recordings from 10 healthy participants performing kinesthetic motor imagery of a right-hand ball squeeze at three graded force levels (10%, 40%, and 70% of maximal voluntary contraction). Data were acquired with a 14-channel Emotiv EPOC headset at 128 Hz, with five cued imagery trials per 40 s recording and two recordings per force level per subject. The dataset supports characterization and classification of motor imagery force levels for brain-computer interfaces.",
-  "methods_description": "Participants imagined squeezing a ball with the right hand at 10%, 40%, or 70% MVC. Each 40 s recording contained five 5-s cues, and each force level was recorded twice per subject. EEG was recorded with a wet saline-electrode Emotiv EPOC (14 channels, 128 Hz, standard 10-20 montage, P3/P4 reference).",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "kinesthetic motor imagery"
-    },
-    {
-      "term": "force level"
-    },
-    {
-      "term": "hand grip"
-    },
-    {
-      "term": "brain-computer interface"
-    }
-  ],
-  "source_hash": "930ba9d9e4f438a6433a2149bd077f33de489f18eb1c7595812f38511f670165"
+  "source_hash": "2624b17fa80d68f971d7ad050e9b022b42c895a093809724c8d07e1c678e4a74"
 }
