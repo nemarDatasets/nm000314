@@ -36,6 +36,6 @@
     ],
     "PublicationYear": 2024,
     "EthicsApprovals": [
-        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+        "Assessed and approved by the local Ethics Committee of Cinvestav (the research institution). The study was conducted under the principles of the Declaration of Helsinki, and all participants gave written informed consent (Martinez-Peon et al. 2024, J. Neural Eng., DOI 10.1088/1741-2552/ad5f27)."
     ]
 }

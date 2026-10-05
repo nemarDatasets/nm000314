@@ -109,3 +109,13 @@ new human-subject data were collected during this BIDS re-release; this
 NEMAR record only reformats the published source data into BIDS via MOABB.
 Please consult the primary publication for the exact IRB/ethics committee
 reference.
+
+## Ethics
+
+Assessed and approved by the local Ethics Committee of Cinvestav (the research institution). The study was conducted under the principles of the Declaration of Helsinki, and all participants gave written informed consent (Martinez-Peon et al. 2024, J. Neural Eng., DOI 10.1088/1741-2552/ad5f27).
+
+Verbatim from the source:
+
+> The study was assessed and approved by the local Ethics Committee of the research institution (Cinvestav) and performed under the Helsinki Declaration. All participants received an explanation of the purpose of the study, filled out the consent form, and performed the study.
+
+Source: cached paper .paper-audit/MartinezPeon2024/paper-10_1088_1741_2552_ad5f27.txt (Martinez-Peon et al. 2024, J. Neural Eng., DOI 10.1088/1741-2552/ad5f27).
