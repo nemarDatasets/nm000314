@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "MartinezPeon2024: Kinesthetic motor imagery at graded force levels",
-  "description": "EEG recordings of kinesthetic motor imagery of a right-hand ball squeeze at three graded force levels (10%, 40%, and 70% of maximal voluntary contraction) from 10 healthy participants. Data were acquired with a 14-channel Emotiv EPOC headset at 128 Hz, with five 5-s imagery cues per 40-s recording and two recordings per force level per subject. This BIDS release was produced via MOABB and supports research on force-level characterization and classification for brain-computer interfaces.",
-  "methods_description": "Participants performed cue-based, offline kinesthetic motor imagery of a right-hand ball squeeze at 10, 40, and 70% MVC. Each 40 s recording contained five cues (at 2.9, 10.9, 18.9, 26.9, and 34.9 s, 5 s each), and each force level was recorded twice per subject. EEG was recorded with a 14-channel wet saline Emotiv EPOC system at 128 Hz, referenced to P3/P4.",
+  "description": "EEG recordings of kinesthetic motor imagery of a right-hand ball squeeze at three graded force levels (10%, 40% and 70% of maximal voluntary contraction) from 10 healthy participants. Data were acquired with a 14-channel Emotiv EPOC headset at 128 Hz, with five cued imagery trials per 40 s recording. The dataset supports characterization and classification of motor imagery force levels for brain-computer interface research. The associated paper (Martinez-Peon, Garcia-Hernandez, Benavides-Bravo & Parra-Vega, 2024, J. Neural Eng.) lists additional co-authors beyond the BIDS-recorded investigator.",
+  "methods_description": "Participants performed cue-based kinesthetic motor imagery of a right-hand ball squeeze at 10, 40 and 70% MVC. Each 40 s recording contained five 5 s cues, and each force level was recorded twice per subject across 6 runs. EEG was recorded with a wet saline-electrode Emotiv EPOC (14 channels, 128 Hz, P3/P4 reference).",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -81,5 +81,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "2624b17fa80d68f971d7ad050e9b022b42c895a093809724c8d07e1c678e4a74"
+  "source_hash": "0d964a69203525bfadc737e101b62b0630b20ec33f20492d544d8b2044ee9c3b"
 }
