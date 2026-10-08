@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "MartinezPeon2024: Kinesthetic motor imagery at graded force levels",
-  "description": "EEG recordings of kinesthetic motor imagery of a right-hand ball squeeze at three graded force levels (10%, 40% and 70% of maximal voluntary contraction) from 10 healthy participants. Data were acquired with a 14-channel Emotiv EPOC headset at 128 Hz, with five cued imagery trials per 40 s recording. The dataset supports characterization and classification of motor imagery force levels for brain-computer interface research. The associated paper (Martinez-Peon, Garcia-Hernandez, Benavides-Bravo & Parra-Vega, 2024, J. Neural Eng.) lists additional co-authors beyond the BIDS-recorded investigator.",
-  "methods_description": "Participants performed cue-based kinesthetic motor imagery of a right-hand ball squeeze at 10, 40 and 70% MVC. Each 40 s recording contained five 5 s cues, and each force level was recorded twice per subject across 6 runs. EEG was recorded with a wet saline-electrode Emotiv EPOC (14 channels, 128 Hz, P3/P4 reference).",
+  "description": "EEG recordings of kinesthetic motor imagery of a right-hand ball squeeze at three graded force levels (10%, 40% and 70% of maximal voluntary contraction) from 10 healthy participants. Data were acquired with a 14-channel Emotiv EPOC headset at 128 Hz, with five 5-second imagery cues per 40-second recording. The dataset supports characterization and classification of motor imagery force levels for brain-computer interface research. The associated paper (Journal of Neural Engineering, 2024) is by Martinez-Peon, Garcia-Hernandez, Benavides-Bravo and Parra-Vega.",
+  "methods_description": "Ten healthy subjects performed cue-based kinesthetic motor imagery of a right-hand ball squeeze at 10/40/70% MVC in a single session of 6 runs. Each 40 s recording contained five 5 s cues, and each force level was recorded twice per subject. EEG was recorded with a 14-channel Emotiv EPOC (saline wet electrodes, 128 Hz, P3/P4 reference).",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -27,6 +27,12 @@
     },
     {
       "term": "brain-computer interface"
+    },
+    {
+      "term": "Emotiv EPOC"
+    },
+    {
+      "term": "maximal voluntary contraction"
     }
   ],
   "related_identifiers": [
@@ -72,14 +78,15 @@
     "eeg"
   ],
   "sizes": [
-    "8.84 MB (61 files)"
+    "54.33 MB (122 files)"
   ],
   "formats": [
     ".edf",
     ".json",
+    ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "0d964a69203525bfadc737e101b62b0630b20ec33f20492d544d8b2044ee9c3b"
+  "source_hash": "7e3b9bd45e11ed356668a4ade85f96cbc7a516d76f1068eb7afc825d28a67bab"
 }
