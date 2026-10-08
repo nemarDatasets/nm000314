@@ -1,41 +1,45 @@
 {
-    "Name": "MartinezPeon2024: Kinesthetic motor imagery at graded force levels",
-    "BIDSVersion": "1.9.0",
-    "HEDVersion": "8.4.0",
-    "DatasetType": "derivative",
-    "License": "CC-BY-4.0",
-    "Authors": [
-        "Dulce Martinez-Peon"
-    ],
-    "ReferencesAndLinks": [
-        "https://doi.org/10.6084/m9.figshare.25773342",
-        "10.1088/1741-2552/ad5f27"
-    ],
-    "Keywords": [
-        "motor imagery",
-        "kinesthetic motor imagery",
-        "force level",
-        "hand grip",
-        "EEG",
-        "BCI"
-    ],
-    "DatasetDOI": "doi:10.6084/m9.figshare.25773342.v1",
-    "GeneratedBy": [
-        {
-            "CodeURL": "https://github.com/NeuroTechX/moabb",
-            "Name": "moabb",
-            "Description": "Mother of All BCI Benchmarks",
-            "Version": "1.8.0dev0"
-        }
-    ],
-    "SourceDatasets": [
-        {
-            "DOI": "10.6084/m9.figshare.25773342.v1",
-            "URL": "https://doi.org/10.6084/m9.figshare.25773342"
-        }
-    ],
-    "PublicationYear": 2024,
-    "EthicsApprovals": [
-        "Assessed and approved by the local Ethics Committee of Cinvestav (the research institution). The study was conducted under the principles of the Declaration of Helsinki, and all participants gave written informed consent (Martinez-Peon et al. 2024, J. Neural Eng., DOI 10.1088/1741-2552/ad5f27)."
-    ]
+  "Name": "MartinezPeon2024: Kinesthetic motor imagery at graded force levels",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Dulce Martinez-Peon"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.6084/m9.figshare.25773342",
+    "10.1088/1741-2552/ad5f27"
+  ],
+  "Keywords": [
+    "motor imagery",
+    "kinesthetic motor imagery",
+    "force level",
+    "hand grip",
+    "EEG",
+    "BCI"
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000314",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.8.0dev0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.6084/m9.figshare.25773342.v1",
+      "URL": "https://doi.org/10.6084/m9.figshare.25773342"
+    },
+    {
+      "DOI": "doi:10.6084/m9.figshare.25773342.v1"
+    }
+  ],
+  "PublicationYear": 2024,
+  "EthicsApprovals": [
+    "Assessed and approved by the local Ethics Committee of Cinvestav (the research institution). The study was conducted under the principles of the Declaration of Helsinki, and all participants gave written informed consent (Martinez-Peon et al. 2024, J. Neural Eng., DOI 10.1088/1741-2552/ad5f27)."
+  ],
+  "Version": "1.0.0"
 }
